@@ -1,0 +1,150 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f5;
+    color: #333;
+}
+
+header {
+    background-color: #e49acb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fce4ec;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #e49acb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e49acb;
+    color: white;
+    margin-top: 40px;
+}
+
+.form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.form-section h2 {
+    text-align: center;
+    color: #b03e94;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Cairo', sans-serif;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    line-height: 1.8;
+    text-align: right;
+}
+
+.about-section h2 {
+    color: #b03e94;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.contact-section {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #b03e94;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Cairo', sans-serif;
+}

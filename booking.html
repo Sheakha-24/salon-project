@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>حجز موعد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>صالون الأناقة</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="booking.html">الحجز</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section">
+        <h2>احجزي موعدكِ الآن</h2>
+        <form>
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">رقم الجوال:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service">الخدمة المطلوبة:</label>
+            <select id="service" name="service" required>
+                <option value="">-- اختاري خدمة --</option>
+                <option value="haircut">قص شعر</option>
+                <option value="color">صبغه شعر</option>
+                <option value="skincare">عناية بالبشرة</option>
+            </select>
+
+            <label for="date">التاريخ:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="notes">ملاحظات إضافية:</label>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+
+            <button type="submit" class="btn">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 صالون الأناقة - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
